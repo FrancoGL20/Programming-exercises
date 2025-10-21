@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "type": "debugpy",
+            "request": "launch",
+            "name": "Debug Python File",
+            "program": "${input:pythonFile}",
+            "console": "integratedTerminal",
+        }
+    ],
+    "inputs": [
+        {
+            "type": "pickString",
+            "id": "pythonFile",
+            "description": "Select Python file to debug",
+            "options": [
+                "Integer partitions/integer_partition_of_n_with_len_k.py",
+                "Integer partitions/test_integer_partition_of_n_with_len_k.py",
+                "Python/Digitwise addition/digitwise_addition.py",
+                "Python/Digitwise addition/test_digitwise_addition.py",
+                "Python/Square Digits Sequence/main.py",
+                "Python/Square Digits Sequence/test.py",
+                "Python/Sum of nested numbers/main.py",
+                "Python/Sum of nested numbers/test.py",
+            ],
+        }
+    ],
+}
